@@ -19,4 +19,16 @@ function selectionSort(arr) {
             arr[minIndex] = temp;
         }
 
-        // Print array
+        // Print array after each pass (to see progress)
+        console.log(`Pass ${i + 1}:`, arr);
+    }
+
+    return arr;
+}
+
+// Example usage
+let nums = [64, 25, 12, 22, 11];
+console.log("Original:", nums);
+let sorted = selectionSort(nums);
+console.log("Sorted:", sorted);
+
