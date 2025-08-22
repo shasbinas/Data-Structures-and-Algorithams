@@ -19,10 +19,10 @@
 /* Declaration */
 
 // Using square brackets (most common)
-let arr1 = [10, 20, 30];
+// let arr1 = [10, 20, 30];
 
-// Using Array constructor
-let arr2 = new Array(10, 20, 30);
+// // Using Array constructor
+// let arr2 = new Array(10, 20, 30);
 
-console.log(arr1);
-console.log(arr2);
+// console.log(arr1);
+// console.log(arr2);
